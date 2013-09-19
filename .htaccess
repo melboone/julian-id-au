@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^julian.id.au [NC]
+RewriteRule ^(.*)$ http://www.julian.id.au/$1 [L,R=301]
+
+allow from all
